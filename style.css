@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(99, 86, 79);
+    --text-color: rgb(253, 253, 253);
+}
+
+/* .h1{
+    color: rgb(99, 86, 79);
+} */
+
+body {
+    margin: 0;
+    background-image: url("./images/pirate.jpg");
+    opacity: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Major Mono Display", cursive;
+}
+
+
+
+nav {
+    text-align: center;
+    color:var(--text-color);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    min-height: 15vh;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: xx-large;
+    color: var(--primary);
+    font-weight: bolder;
+    background-color: transparent;
+    text-align: center;
+    font-family: cursive;
+}
+
+button {
+    background-color: transparent;
+    border-color: var(--text-color);
+    margin-top: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kalam', cursive;
+    font-size: x-large;
+}
+
+#output {
+    box-sizing: border-box;
+    display: block;
+    min-height: 15vh;
+    margin-top:0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: xx-large;
+    color: var(--primary);
+    font-weight: bolder;
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:var(--text-color);
+    font-size: x-large;
+}
+
